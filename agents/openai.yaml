@@ -1,0 +1,7 @@
+interface:
+  display_name: "Browser file upload"
+  short_description: "Upload local files through websites reliably"
+  default_prompt: "Use $browser-file-upload whenever a website upload is required."
+
+policy:
+  allow_implicit_invocation: true
