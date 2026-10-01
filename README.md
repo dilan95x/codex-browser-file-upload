@@ -19,7 +19,7 @@ macOS or Linux:
 
 ```bash
 mkdir -p "${CODEX_HOME:-$HOME/.codex}/skills"
-git clone https://github.com/dilan95x/browser-file-upload.git \
+git clone https://github.com/dilan95x/codex-browser-file-upload.git \
   "${CODEX_HOME:-$HOME/.codex}/skills/browser-file-upload"
 ```
 
@@ -28,7 +28,7 @@ Windows PowerShell:
 ```powershell
 $codexRoot = if ($env:CODEX_HOME) { $env:CODEX_HOME } else { Join-Path $HOME ".codex" }
 New-Item -ItemType Directory -Force -Path (Join-Path $codexRoot "skills") | Out-Null
-git clone https://github.com/dilan95x/browser-file-upload.git `
+git clone https://github.com/dilan95x/codex-browser-file-upload.git `
   (Join-Path $codexRoot "skills\browser-file-upload")
 ```
 
