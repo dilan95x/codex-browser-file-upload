@@ -1,7 +1,7 @@
 interface:
-  display_name: "Browser file upload"
-  short_description: "Upload local files through websites reliably"
-  default_prompt: "Use $browser-file-upload whenever a website upload is required."
+  display_name: "Codex browser file upload"
+  short_description: "Reliable Codex website file uploads"
+  default_prompt: "Use $browser-file-upload for a Codex browser file upload."
 
 policy:
   allow_implicit_invocation: true

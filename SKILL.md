@@ -1,11 +1,11 @@
 ---
 name: browser-file-upload
-description: "Upload local files through websites using browser or computer-use tools. Use whenever a user asks to upload a file to a website, including file-picker troubleshooting, Chrome extension permission handoff, browser restart, and end-to-end persistence verification."
+description: "Use Codex browser or computer-use capabilities to upload local files to websites reliably. Use whenever Codex is asked to upload a file, including file-picker troubleshooting, Chrome extension permission handoff, browser restart, and end-to-end persistence verification."
 ---
 
-# Browser File Upload
+# Codex Browser File Upload
 
-Use this skill for every website file upload. Keep the requested file, destination page, and final saved state explicit. The upload is not complete when a file is merely selected: verify the website accepted it, the enclosing form was saved, and the value persists after reopening or reloading the page.
+Use this skill for every Codex website file upload performed through browser or computer-use tools. It is not a general Chrome troubleshooting guide. Keep the requested file, destination page, and final saved state explicit. The upload is not complete when a file is merely selected: verify the website accepted it, the enclosing form was saved, and the value persists after reopening or reloading the page.
 
 ## Authorization and safety
 

@@ -1,6 +1,6 @@
-# Browser File Upload
+# Codex Browser File Upload
 
-`browser-file-upload` is a Codex skill for reliable, filename-aware uploads from a local computer to a website using browser or computer-use tools.
+`browser-file-upload` is a Codex skill for reliable, filename-aware uploads from a local computer to a website using Codex browser or computer-use tools.
 
 It covers:
 
@@ -11,7 +11,7 @@ It covers:
 - the required full Chrome quit/reopen after permission changes; and
 - upload, form-save, reload, and persistence verification.
 
-This is a community skill, not an official OpenAI product.
+This is a community Codex skill, not an official OpenAI product or a general Chrome extension.
 
 ## Install in Codex
 
@@ -32,7 +32,7 @@ git clone https://github.com/dilan95x/browser-file-upload.git `
   (Join-Path $codexRoot "skills\browser-file-upload")
 ```
 
-Start a new Codex turn after installation. The skill should activate when a user asks to upload a file to a website.
+Start a new Codex turn after installation. The skill should activate when Codex is asked to upload a file to a website.
 
 ## Chrome permission recovery
 
